@@ -1,0 +1,37 @@
+{
+  "name": "orca-session-id",
+  "version": "0.1.0",
+  "description": "OpenCode 2 plugin that sends X-OrcaRouter-Session-Id on every OrcaRouter request.",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "orcarouter",
+    "session-id"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tailmon/orca-session-id.git"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "^2.0.29",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.2"
+  }
+}
