@@ -9,7 +9,7 @@
 import { Plugin } from "@opencode/plugin"
 
 export default Plugin.define({
-  id: "orca-cloak-session",
+  id: "orca-session-id",
   async setup(ctx) {
     await ctx.session.hook(
       "model.request",
